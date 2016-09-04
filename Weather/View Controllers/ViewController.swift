@@ -64,6 +64,7 @@ class ViewController: UIViewController {
 
     private func setupMessageLabel() {
         messageLabel.isHidden = true
+        messageLabel.text = "Hmm ... I don't have anything to show you."
     }
 
     private func setupActivityIndicatorView() {
