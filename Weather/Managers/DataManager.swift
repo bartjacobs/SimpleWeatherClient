@@ -30,7 +30,7 @@ final class DataManager {
 
     // MARK: - Requesting Data
 
-    func weatherDataForLocation(latitude: Double, longitude: Double, completion: WeatherDataCompletion) {
+    func weatherDataForLocation(latitude: Double, longitude: Double, completion: @escaping WeatherDataCompletion) {
         // Create URL
         let URL = baseURL.appendingPathComponent("\(latitude),\(longitude)")
 
